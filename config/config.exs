@@ -7,4 +7,5 @@ config :akn_messages, AknMessages.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",
-  port: "5432"
+  port: "5432",
+  pool_size: 20
